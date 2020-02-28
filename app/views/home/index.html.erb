@@ -1,6 +1,26 @@
-<h1> ようこそ <strong>Booker</strong>へ</h1>
-<p>
-	<strong>Booker</strong>では、さまざまな書籍に関するあなたの意見や
+ <div class="container">
+ 	<div class="row">
+
+
+
+
+
+<h1> welcome to <span class="glyphicon glyphicon-book" aria-hidden="true"></span><strong>Bookers  !!</strong></h1>
+<p>In
+	<span class="glyphicon glyphicon-book" aria-hidden="true"></span><strong>Bookers</strong>
 </p>
-<p>印象を共有することができます</p>
-	<%=link_to 'Start', books_path %>
+<p>you can share and exchange your opinions , inpressions , and emotions</p>
+<p>about various books!</p>
+
+	<p>
+		<%= link_to 'Log in', new_user_session_path, class: "btn btn-info btn-block" %>
+	</p>
+
+	<div class="btn btn-success btn-block">
+		<p><%= link_to "/users/sign_up" do %>
+			sign up<% end %>
+		</p>
+	</div>
+</div>
+</div>
+
